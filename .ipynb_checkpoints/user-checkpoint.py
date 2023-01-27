@@ -1,5 +1,7 @@
+from dataclasses import dataclass
 from datetime import datetime
 from dateutil import relativedelta
+from plan import Plan
 
 @dataclass
 class User:

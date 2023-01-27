@@ -1,4 +1,5 @@
 from plan import basic_plan, standard_plan, premium_plan, Plan
+from user import User
 
 plan_employee = Plan(
     can_stream=True,
@@ -18,4 +19,3 @@ print(plan_employee.content)
 
 print(basic_plan.plan_name)
 
-from user import User
